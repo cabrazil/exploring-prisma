@@ -1,0 +1,62 @@
+[
+  {
+    "id": "4fa4d943-6ed1-40f5-9d2d-d924f44d37c8",
+    "fk_id_course": "9e7461c0-b5f5-4722-b0ac-5196719e3529",
+    "fk_id_module": "67ab3281-791b-430b-a1b6-e833efc9e555",
+    "created_at": "2022-02-07T18:34:03.132Z",
+    "course": {
+      "id": "9e7461c0-b5f5-4722-b0ac-5196719e3529",
+      "name": "Curso de NodeJS",
+      "description": "Curso excelente de NodeJS",
+      "duration": 200,
+      "created_at": "2022-02-03T22:40:46.681Z",
+      "fk_id_teacher": null
+    },
+    "module": {
+      "id": "67ab3281-791b-430b-a1b6-e833efc9e555",
+      "name": "Aprendendo firebase do zero",
+      "description": "Firebase",
+      "created_at": "2022-02-07T18:34:03.132Z"
+    }
+  },
+  {
+    "id": "48829047-23c4-4fa1-b6f6-babda82cde5a",
+    "fk_id_course": "b3457c72-d99b-4df0-a678-39692a6c784e",
+    "fk_id_module": "67ab3281-791b-430b-a1b6-e833efc9e555",
+    "created_at": "2022-02-07T19:02:34.384Z",
+    "course": {
+      "id": "b3457c72-d99b-4df0-a678-39692a6c784e",
+      "name": "AngularJS 2",
+      "description": "Curso atualizado para versão 2",
+      "duration": 320,
+      "created_at": "2022-02-04T14:07:34.260Z",
+      "fk_id_teacher": null
+    },
+    "module": {
+      "id": "67ab3281-791b-430b-a1b6-e833efc9e555",
+      "name": "Aprendendo firebase do zero",
+      "description": "Firebase",
+      "created_at": "2022-02-07T18:34:03.132Z"
+    }
+  },
+  {
+    "id": "21a185aa-cfc1-4988-a7c5-5a0485374d0f",
+    "fk_id_course": "dd6d3ab3-2da8-447d-90f1-dfb9b72912b8",
+    "fk_id_module": "1f6f392b-9bb6-4996-b435-c154312a83ab",
+    "created_at": "2022-02-07T19:28:20.448Z",
+    "course": {
+      "id": "dd6d3ab3-2da8-447d-90f1-dfb9b72912b8",
+      "name": "Curso de Mongodb",
+      "description": "Curso de MongoDB Cloud",
+      "duration": 200,
+      "created_at": "2022-02-07T19:28:20.449Z",
+      "fk_id_teacher": null
+    },
+    "module": {
+      "id": "1f6f392b-9bb6-4996-b435-c154312a83ab",
+      "name": "PrismaIO",
+      "description": "Fundamentos PrismaIO",
+      "created_at": "2022-02-07T19:28:20.449Z"
+    }
+  }
+]
